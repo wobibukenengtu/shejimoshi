@@ -1,0 +1,14 @@
+package 设计模式;
+
+public class 工厂模式 {
+public static void main(String[] args) {
+	
+}
+public String facory(String fruitname) {
+	if(fruitname.equals("Apple"))
+		return "Apple";
+	if(fruitname.equals("Banana"))
+		return "Banana";
+	return null;
+}
+}
